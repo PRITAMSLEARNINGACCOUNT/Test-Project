@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pfpandh1text {
+  height: 86vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.textforfirstpage {
+  max-width: 500px;
+  height: 200px;
+  margin-left: 100px;
+}
+.textforfirstpage > h1 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+.textforfirstpage p {
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+.main-pfp > img {
+  animation: blobshapes 8s infinite;
+}
+@keyframes blobshapes {
+  0%, 100% {
+    border-radius: 39% 61% 41% 59%/27% 31% 69% 73%;
+  }
+  25% {
+    border-radius: 50% 50% 53% 47%/54% 31% 69% 46%;
+  }
+  50% {
+    border-radius: 71% 29% 33% 67%/61% 45% 55% 39%;
+  }
+  75% {
+    border-radius: 34% 66% 60% 40%/61% 45% 55% 39%;
+  }
+}
+
+nav {
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav > ul {
+  display: flex;
+  gap: 30px;
+  background-color: rgb(233, 233, 233);
+  padding: 17px 35px;
+  border-radius: 35px;
+}
+nav > ul li {
+  list-style: none;
+  font-family: sans-serif;
+}
+nav > ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
