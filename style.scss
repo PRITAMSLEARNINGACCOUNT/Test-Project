@@ -94,3 +94,68 @@ nav {
     }
 }
 // Navbar Ends Here
+
+// Responsiveness for first page in phone
+@media screen and (max-width:450px) {
+
+    // cotainer for h1 and pfp
+    .pfpandh1text {
+        // border: solid;
+        height: 90svh;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    //first page h1 and paragraph
+    .textforfirstpage {
+        // border: solid;
+        max-width: 300px;
+        height: 170px;
+        margin-left: 0px;
+    
+        > h1 {
+            font-size: 2rem;
+            font-weight: 100;
+        }
+    
+        p {
+            margin-top: 20px;
+        }
+    }
+    // main pfp
+    .main-pfp {
+        > img {
+            height: 300px;
+            margin-top: 30px;
+        }
+    }
+    
+    // Navbar starts here
+    nav {
+        // border: solid;
+        height: 10svh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        > ul {
+            display: flex;
+            gap: 35px;
+            // border: solid;
+            background-color: rgb(233, 233, 233);
+            padding: 14px 30px;
+            border-radius: 35px;
+            margin-bottom: 10px;
+    
+            li {
+                a {
+                    font-size: 1.2rem;
+                }
+                :hover {
+                    padding: 10px 23px;
+                    border-radius: 25px;
+                    margin: -10px -23px;
+                }
+            }
+        }
+    }
+}
