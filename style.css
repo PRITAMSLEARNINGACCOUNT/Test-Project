@@ -5,7 +5,7 @@
 }
 
 .pfpandh1text {
-  height: 86vh;
+  height: 86svh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -26,7 +26,7 @@
 }
 
 .main-pfp > img {
-  animation: blobshapes 8s infinite;
+  animation: blobshapes 6s infinite;
 }
 @keyframes blobshapes {
   0%, 100% {
@@ -44,14 +44,14 @@
 }
 
 nav {
-  height: 14vh;
+  height: 14svh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 nav > ul {
   display: flex;
-  gap: 30px;
+  gap: 35px;
   background-color: rgb(233, 233, 233);
   padding: 17px 35px;
   border-radius: 35px;
@@ -64,4 +64,11 @@ nav > ul li a {
   text-decoration: none;
   font-size: 1.2rem;
   color: black;
+  transition: padding 0.1s ease-in-out, border-radius 0.1s ease-in-out, margin 0.1s ease-in-out;
+}
+nav > ul li :hover {
+  background-color: white;
+  padding: 10px 23px;
+  border-radius: 25px;
+  margin: -10px -23px;
 }/*# sourceMappingURL=style.css.map */
