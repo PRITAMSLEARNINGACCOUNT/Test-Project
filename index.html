@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pritams-portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <div class="first-page">
@@ -15,12 +16,11 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quam nisi quis optio totam vel, hic sed ex aperiam quae.</p>
                 </div>
                 <div class="main-pfp">
-                    <img src="pritams-pfp.jpeg" alt="profile picture of pritam saha">
+                    <img src="./images/pritams-pfp.jpeg" alt="profile picture of pritam saha">
                 </div>
             </div>
         </div>
     </div>
-    <!-- Navbar -->
     <nav>
         <ul>
             <li><a href="#" target="_blank">About</a></li>
@@ -28,5 +28,39 @@
             <li><a href="#" target="_blank">Contact</a></li>
         </ul>
     </nav>
+    <!-- Contact section -->
+     <div class="socialMediaContainer">
+         <div class="contactContainer">
+            <div class="socialMediaLinks">
+                <ul>
+                    <li><a href=""><img src="./images/linkedin_icon.png" alt=""></a></li>
+                    <li><a href=""><img src="./images/linkedin_icon.png" alt=""></a></li>
+                    <li><a href=""><img src="./images/linkedin_icon.png" alt=""></a></li>
+                    <li><a href=""><img src="./images/linkedin_icon.png" alt=""></a></li>
+                    
+                </ul>
+            </div>
+            <div class="mainContactParaContainer">
+                <div id = "contactParaContainer">
+                    <p id="mainContactPara">I'm open for Freelancing work in web development contact me here.</p>
+                    <button id="contactGmail">pritam@gmail.com</button>
+                    <dialog class="getInTouchContainer">
+                        <div class="h3andclosecontainer">
+                            <h3>Get in touch</h3>
+                            <button class="close-button">&times;</button>
+                        </div>
+                        <input type="text" name="name" id="sendersName" placeholder="Enter Your Name" autocomplete="off">
+                        <br>
+                        <input type="email" name="emai" id="sendersEmail" placeholder="Enter Your Email">
+                        <br>
+                        <textarea name="message" placeholder="Enter Your message" id=""></textarea>
+                        <br>
+                        <button type="submit" id="submit">Submit</button>
+                    </dialog>
+                </div>
+            </div>
+         </div>
+     </div>
+     <script src="script.js"></script>
 </body>
 </html>
