@@ -9,7 +9,7 @@
     height: 100svh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .socialMediaLinks ul{
@@ -31,6 +31,7 @@
 #sclpara{
     font-family: sans-serif;
     letter-spacing: 1px;
+    font-size: 1.7rem;
 }
 
 /* Main Contact Paragraph part */
@@ -66,5 +67,8 @@
     #mainContactPara{
         font-size: 1.6rem;
         padding: 20px 0px;
+    }
+    #sclpara{
+        font-size: 1rem;
     }
 }
