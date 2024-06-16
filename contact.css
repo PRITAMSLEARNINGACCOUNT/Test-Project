@@ -64,8 +64,12 @@
         width: 350px;
         /* border: solid; */
         padding-left: 13px;
-        margin-bottom: auto;
-        margin-top: auto;
+        /* margin-bottom: auto;
+        margin-top: auto; */
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
     }
     .socialMediaContainer{
         flex-wrap: nowrap;
