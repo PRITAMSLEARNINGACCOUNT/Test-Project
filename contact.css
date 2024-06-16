@@ -64,18 +64,14 @@
         width: 350px;
         /* border: solid; */
         padding-left: 13px;
-        /* margin-bottom: auto;
-        margin-top: auto; */
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
+        margin-bottom: auto;
+        margin-top: auto;
     }
     .socialMediaContainer{
         flex-wrap: nowrap;
         /* border: solid; */
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: space-between;
     }
     #mainContactPara{
         font-size: 1.6rem;
