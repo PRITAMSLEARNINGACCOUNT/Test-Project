@@ -58,16 +58,12 @@
     box-shadow:-1px 2px black ;
 }
 
-.buttonforgmail{
-    text-align: center;
-}
-
 /* Responsiveness */
 @media (max-width:550px){
     .mainContactParaContainer{
         width: 350px;
         /* border: solid; */
-        margin-top: 100px;
+        margin-bottom: -250px;
         padding-left: 13px;
     }
     #mainContactPara{
@@ -79,6 +75,15 @@
     }
     .socialMediaLinks{
         /* border: solid; */
-        margin-bottom: -60px;
+        margin-bottom: -230px;
+    }
+    .buttonforgmail{
+        text-align: center;
+    }
+    .socialMediaLinks ul li a img{
+        height: 30px;
+    }
+    .socialMediaLinks ul{
+        gap: 15px;
     }
 }
