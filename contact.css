@@ -63,8 +63,15 @@
     .mainContactParaContainer{
         width: 350px;
         /* border: solid; */
-        margin-bottom: -250px;
         padding-left: 13px;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+    .socialMediaContainer{
+        flex-wrap: nowrap;
+        /* border: solid; */
+        flex-direction: column;
+        justify-content: flex-end;
     }
     #mainContactPara{
         font-size: 1.6rem;
@@ -72,10 +79,6 @@
     }
     #sclpara{
         font-size: 1rem;
-    }
-    .socialMediaLinks{
-        /* border: solid; */
-        margin-bottom: -230px;
     }
     .buttonforgmail{
         text-align: center;
