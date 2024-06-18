@@ -6,7 +6,7 @@
 
 /* Social media part */
 .socialMediaContainer{
-    height: 100vh;
+    height: 100svh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
