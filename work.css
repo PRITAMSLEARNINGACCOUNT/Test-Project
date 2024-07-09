@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+}
+.workbox{
+    /* outline: 2px solid; */
+    height:95vh;
+    width: 95vw;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0px;
+    transition: transform 1s;
+}
+.workbox:hover{
+    transform: scale(1.01);
+}
+.workimagesmain{
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 1s;
+}
+.workimagesmain img{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+}
+.workimagesmain:hover img{
+    transform: scale(1.02);
+}
+.projName{
+    font-size: 1.8rem;
+    font-weight: 550;
+}
+.projDesc{
+    /* border: solid; */
+    width: 700px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.projstatement{
+    text-align: center;
+    width: 500px;
+}
+.workboxend{
+    /* border: solid; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px ;
+}
+.stackimages{
+    height: 30px;
+}
+.techstack > p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.redirectbtn{
+    font-size: 1.1rem;
+    padding: 15px;
+    border-radius:35px ;
+    border: 1px grey solid;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 1s ;
+}
+.redirectbtn:hover{
+    transform: scale(1.03);
+}
