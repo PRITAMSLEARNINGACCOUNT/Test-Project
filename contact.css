@@ -12,26 +12,29 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.socialMediaLinks ul{
+.socialMediaLinks ul , .socialMediaLinksTwo ul{
     display: flex;
     gap: 20px;
     justify-content: center;
     padding: 15px 0px;
 }
-.socialMediaLinks ul li{
+.socialMediaLinks ul li , .socialMediaLinksTwo ul li{
     list-style: none;
 }
-.socialMediaLinks ul li a img{
+.socialMediaLinks ul li a img , .socialMediaLinksTwo ul li a img{
     height: 40px;
     transition:transform 1s ease;
 }
-.socialMediaLinks ul li a img:hover{
+.socialMediaLinks ul li a img:hover , .socialMediaLinksTwo ul li a img:hover{
     transform: scale(1.1);
 }
 #sclpara{
     font-family: sans-serif;
     letter-spacing: 1px;
     font-size: 1.7rem;
+}
+.socialMediaLinksTwo{
+    display: none;
 }
 
 /* Main Contact Paragraph part */
@@ -67,26 +70,30 @@
         margin-bottom: auto;
         margin-top: auto;
     }
-    .socialMediaContainer{
-        flex-wrap: nowrap;
-        /* border: solid; */
-        flex-direction: column;
-        justify-content: space-between;
-    }
     #mainContactPara{
         font-size: 1.6rem;
         padding: 20px 0px;
     }
     #sclpara{
         font-size: 1rem;
+        display: none;
     }
     .buttonforgmail{
-        text-align: center;
+        text-align: right;
+        position: relative;
     }
-    .socialMediaLinks ul li a img{
+    .socialMediaLinks{
+        display: none;
+    }
+    .socialMediaLinksTwo ul li a img{
         height: 30px;
     }
-    .socialMediaLinks ul{
+    .socialMediaLinksTwo ul{
         gap: 15px;
+    }
+    .socialMediaLinksTwo{
+        display: flex;
+        position: absolute;
+        top: -8px;
     }
 }
