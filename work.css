@@ -16,39 +16,62 @@
 .workbox{
     /* border: solid; */
     height: 92vh;
-    width: 45vw;
-    min-width: 450px;
+    width: 400px;
     border-radius: 15px;
     box-shadow: 1px 1px 10px grey,-1px 1px 10px rgb(243, 243, 243);
+    overflow: hidden;
+    background-image: linear-gradient(rgb(9, 8, 8),rgb(6, 6, 106));
+    transition: transform 1s;
     
 }
-.descpart{
+.workbox:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.descSec{
+    height: 40%;
     display: flex;
     flex-direction: column;
+    padding: 25px;
     justify-content: space-evenly;
-    height: 40%;
-    padding: 0px 20px;
 }
-.mainpic{
-    height: 60%;
-    width: 100%;
-    border-radius: 15px;
+.descSec h2 {
+    font-size: 1.7rem;
 }
-.workboxend{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
+.descSec p {
+    font-size: 1.rem;
 }
-.stackimages{
-    height: 30px;
+.descSec h2 , p{
+    color: white;
+}
+.workimgcont{
+    position: relative;
+}
+.phStruct{
+    position: absolute;
+    height: 600px;
+    /* width: 265px; */
+    top: 0px;
+    left: 7px;
+}
+.workimg{
+    height:400px;
+    width: 241px;
+    position: absolute;
+    top: 50px;
+    left: 79px;
+    border-radius: 26px;
+    
 }
 .redirectbtn{
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 10px;
     border-radius:35px ;
     border: 1px grey solid;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
     transition: transform 1s ;
+}
+.redirectbtn:hover{
+    transform: scale(1.04);
 }
